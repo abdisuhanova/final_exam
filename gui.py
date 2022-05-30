@@ -1,22 +1,3 @@
-# from tkinter import *
-# root = Tk()
-# root.title("My first app")
-# root.geometry('800x800')
-# root.resizable(width=False, height=False)
-# root.configure(bg = 'white', width=2000, height=2000)
-# canvas = Canvas(root, bg = 'white')
-# canvas.create_oval(90, 30, 290, 230, outline="black",fill="white", width=2)
-# canvas.create_oval(100, 40, 280, 220, outline="black",fill="black", width=2)
-# canvas.create_oval(120, 60, 260, 200, outline="red",fill="red", width=2)
-# canvas.create_text(150, 140, anchor=W, font="ComicSans", text="ALATOO", fill='white')
-# canvas.pack()
-# root.mainloop()
-# from PIL import Image, ImageTk
-# root = Tk()
-# root.title("File Handling")
-# root.iconbitmap("https://yt3.ggpht.com/a/AATXAJwQjSl2gw-yMyd2-GbGPnlCeTe9xU-DMbmWQg=s900-c-k-c0xffffffff-no-rj-mo")
-# me_img = ImageTk.PhotoImage(Image.open('https://yt3.ggpht.com/a/AATXAJwQjSl2gw-yMyd2-GbGPnlCeTe9xU-DMbmWQg=s900-c-k-c0xffffffff-no-rj-mo'))
-# myLabel = Label(image = my_image)
 from tkinter import *
 from turtle import bgcolor
 from function import *
