@@ -2,9 +2,12 @@ def open_file():
     global text1
     text1.set("")
     if entry_window.get():
-        file = open(entry_window.get(),'r')
-        for each in file:
-            text1.set(each)
+        try:
+            file = open(entry_window.get(),'r')
+            for each in file:
+                text1.set(each)
+        except:
+            pass
 
 def create_file():
     global text1
